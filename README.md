@@ -7,7 +7,8 @@ The full notebook with code, plots, and preprocessed dataset can be viewed here:
 https://www.kaggle.com/code/alishbayousaf1100/credit-card-fraud-detection
 
 ## Files in this Repository
-- `Credit_Card_Fraud_Detection.ipynb` → Kaggle notebook with full code  
+- `Credit_Card_Fraud_Detection.ipynb` → Data preprocessing phase
+- Credit_Card_Fraud_Detection_Feature_Engineering.ipynb → Feature engineering phase
   
 
 ## Project Steps
