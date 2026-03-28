@@ -1,28 +1,46 @@
-# Credit Card Fraud Detection Project
+Credit Card Fraud Detection Project
 
-This is a **Machine Learning project** focused on detecting fraudulent transactions in credit card data. The project includes data visualization, preprocessing, and prepares the dataset for model building in later phases.
+This is a Machine Learning project focused on detecting fraudulent credit card transactions using real-world data. The project covers the complete pipeline from data preprocessing to model training and evaluation.
 
-## Kaggle Notebook
-The full notebook with code, plots, and preprocessed dataset can be viewed here:  
+Kaggle Notebook
+The full notebook with code, visualizations, and results can be viewed here:
 https://www.kaggle.com/code/alishbayousaf1100/credit-card-fraud-detection
+Files in this Repository
+Credit_Card_Fraud_Detection.ipynb → Data preprocessing and EDA  
+Credit_Card_Fraud_Detection_Feature_Engineering.ipynb → Feature engineering  
+Credit_Card_Fraud_Detection_Complete_Notebook.ipynb → Model training, evaluation, and results  
 
-## Files in this Repository
-- `Credit_Card_Fraud_Detection.ipynb` → Data preprocessing phase
-- Credit_Card_Fraud_Detection_Feature_Engineering.ipynb → Feature engineering phase
-  
+Project Steps
+1. Data Visualization and Statistical Analysis  
+   Understanding distributions, missing values, and feature relationships  
 
-## Project Steps
-1. **Data Visualization and Statistical Analysis**  
-   - Understanding distributions, missing values, and feature relationships
-2. **Preprocessing of Dataset**  
-   - Handling missing values, dropping irrelevant features, feature scaling, etc.
-3. **Model Building (Future Phases)**  
-   - Classification models to detect fraudulent transactions
+2. Data Preprocessing  
+   Handling missing values, feature scaling, and cleaning  
 
-## How to Run
-1. Open `Credit_Card_Fraud_Detection.ipynb` in Jupyter Notebook or Kaggle.  
-2. Run all cells to reproduce analysis and preprocessing steps.  
+3. Feature Engineering  
+   Creating new features such as Hour, Log_Amount, and High_Amount  
 
-## Notes
-- The preprocessed dataset is saved and can be directly used in the next phases of the project.  
-- Ensure Python and required libraries (pandas, matplotlib, seaborn, scikit-learn, etc.) are installed.
+4. Model Training and Evaluation  
+   Training LightGBM model and evaluating using accuracy, precision, recall, and F1-score  
+
+5. Handling Class Imbalance  
+   Applied SMOTE to balance the dataset and improve fraud detection  
+
+6. Risk Scoring  
+   Generated probability-based risk scores to prioritize suspicious transactions  
+
+Key Results
+- High overall accuracy achieved  
+- Fraud detection recall significantly improved after applying SMOTE  
+- Model effectively identifies fraudulent transactions  
+
+How to Run
+- Open the notebook in Jupyter Notebook or Kaggle  
+- Run all cells step by step to reproduce results  
+
+Requirements
+Python libraries required:
+pandas, numpy, matplotlib, seaborn, scikit-learn, lightgbm, imbalanced-learn  
+
+Conclusion
+This project demonstrates a complete machine learning pipeline for fraud detection. Handling class imbalance using SMOTE significantly improved the model’s ability to detect fraudulent transactions. The final model can also generate risk scores to assist in real-world decision-making.
