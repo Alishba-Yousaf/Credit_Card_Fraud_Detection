@@ -1,8 +1,8 @@
-Credit Card Fraud Detection Project
+# Credit Card Fraud Detection Project
 
 This is a Machine Learning project focused on detecting fraudulent credit card transactions using real-world data. The project covers the complete pipeline from data preprocessing to model training and evaluation.
 
-Kaggle Notebook
+# Kaggle Notebook
 The full notebook with code, visualizations, and results can be viewed here:
 https://www.kaggle.com/code/alishbayousaf1100/credit-card-fraud-detection
 Files in this Repository
