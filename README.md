@@ -3,31 +3,33 @@
 This is a Machine Learning project focused on detecting fraudulent credit card transactions using real-world data. The project covers the complete pipeline from data preprocessing to model training and evaluation.
 
 ## Kaggle Notebook
-The full notebook with code, visualizations, and results can be viewed here:
+The full notebook with code, visualizations, and results can be viewed here:  
 https://www.kaggle.com/code/alishbayousaf1100/credit-card-fraud-detection
+
 ## Files in this Repository
-Credit_Card_Fraud_Detection.ipynb → Data preprocessing and EDA  
-Credit_Card_Fraud_Detection_Feature_Engineering.ipynb → Feature engineering  
-Credit_Card_Fraud_Detection_Complete_Notebook.ipynb → Model training, evaluation, and results  
+- Credit_Card_Fraud_Detection.ipynb → Data preprocessing and EDA  
+- Credit_Card_Fraud_Detection_Feature_Engineering.ipynb → Feature engineering  
+- Credit_Card_Fraud_Detection_Complete_Notebook.ipynb → Model training, evaluation, and results  
 
 ## Project Steps
-1. Data Visualization and Statistical Analysis  
-   Understanding distributions, missing values, and feature relationships  
 
-2. Data Preprocessing  
-   Handling missing values, feature scaling, and cleaning  
+### Data Visualization and Statistical Analysis
+Understanding distributions, missing values, and feature relationships  
 
-3. Feature Engineering  
-   Creating new features such as Hour, Log_Amount, and High_Amount  
+### Data Preprocessing
+Handling missing values, feature scaling, and cleaning  
 
-4. Model Training and Evaluation  
-   Training LightGBM model and evaluating using accuracy, precision, recall, and F1-score  
+### Feature Engineering
+Creating new features such as Hour, Log_Amount, and High_Amount  
 
-5. Handling Class Imbalance  
-   Applied SMOTE to balance the dataset and improve fraud detection  
+### Model Training and Evaluation
+Training LightGBM model and evaluating using accuracy, precision, recall, and F1-score  
 
-6. Risk Scoring  
-   Generated probability-based risk scores to prioritize suspicious transactions  
+### Handling Class Imbalance
+Applied SMOTE to balance the dataset and improve fraud detection  
+
+### Risk Scoring
+Generated probability-based risk scores to prioritize suspicious transactions  
 
 ## Key Results
 - High overall accuracy achieved  
@@ -39,7 +41,7 @@ Credit_Card_Fraud_Detection_Complete_Notebook.ipynb → Model training, evaluati
 - Run all cells step by step to reproduce results  
 
 ## Requirements
-Python libraries required:
+Python libraries required:  
 pandas, numpy, matplotlib, seaborn, scikit-learn, lightgbm, imbalanced-learn  
 
 ## Conclusion
